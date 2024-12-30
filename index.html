@@ -4,29 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <title>World Clock</title>
   </head>
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <select name="" id="">
+      <select name="" id="" class="dropDown">
         <option value="">Select a value...</option>
       </select>
-      <div class="block1">
-        <div class="city">Los Angeles</div>
-        <div class="date">28 Dec 2024</div>
-        <div class="time">04:38 PM</div>
+      <div class="block">
+        <div class="block1">
+          <div>
+            <div class="city">Los Angeles</div>
+            <div class="date">28 Dec 2024</div>
+          </div>
+          <div class="time">04:38:15 <small>PM</small></div>
+        </div>
+        <div class="block1">
+          <div>
+            <div class="city">Paris</div>
+            <div class="date">28 Dec 2024</div>
+          </div>
+          <div class="time">04:38:15 <small>PM</small></div>
+        </div>
       </div>
-      <div class="block2">
-        <div class="city">Sydney</div>
-        <div class="date">28 Dec 2024</div>
-        <div class="time">04:38 PM</div>
-      </div>
+
+      <footer>
+        This project is coded by Akshita and is open sourced at
+        <a href="https://github.com/Akshita70305/World-Clock">GitHub</a>
+      </footer>
     </div>
-    <footer>
-      This project is coded by Akshita and is open sourced at
-      <a href="https://github.com/Akshita70305/World-Clock">GitHub</a>
-    </footer>
+
     <script src="script.js"></script>
   </body>
 </html>
