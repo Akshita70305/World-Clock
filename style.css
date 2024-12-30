@@ -1,9 +1,5 @@
 body {
-  .playfair-display {
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-  }
+  font-family: "Times New Roman", Times, serif;
   background-color: blanchedalmond;
 }
 .container {
@@ -29,27 +25,30 @@ h1 {
 .block1 {
   display: flex;
   justify-content: space-between;
-  margin: 20px 0px;
+  margin: 27px 0px;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
 }
 .block1:last-child {
   border: none;
 }
-.city {
+h2 {
   font-size: 30px;
   font-weight: 700;
+  margin: 0px;
 }
 .date {
   font-size: 17px;
-  margin: 7px 0px 15px 0px;
+  margin: 10px 0px 20px 0px;
   opacity: 0.7;
 }
 .time {
   font-size: 38px;
+  margin-top: 0px;
+  font-weight: 600;
 }
 .time small {
   vertical-align: middle;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 700;
 }
 

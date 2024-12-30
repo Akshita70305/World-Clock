@@ -4,12 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.37/moment-timezone-with-data-1970-2030.min.js"></script>
     <title>World Clock</title>
   </head>
   <body>
@@ -18,20 +14,20 @@
       <select name="" id="" class="dropDown">
         <option value="">Select a value...</option>
       </select>
-      <div class="block">
-        <div class="block1">
+      <div>
+        <div class="block1" id="los-angeles">
           <div>
-            <div class="city">Los Angeles</div>
+            <h2 class="city">Los Angeles</h2>
             <div class="date">28 Dec 2024</div>
           </div>
-          <div class="time">04:38:15 <small>PM</small></div>
+          <div class="time">4:38:15 <small>PM</small></div>
         </div>
-        <div class="block1">
+        <div class="block1" id="paris">
           <div>
-            <div class="city">Paris</div>
+            <h2 class="city">Paris</h2>
             <div class="date">28 Dec 2024</div>
           </div>
-          <div class="time">04:38:15 <small>PM</small></div>
+          <div class="time">4:38:15 <small>PM</small></div>
         </div>
       </div>
 
