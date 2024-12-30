@@ -57,3 +57,7 @@ footer {
   font-size: 17px;
   margin-top: 30px;
 }
+a {
+  color: rgb(83, 82, 82);
+  font-weight: 700;
+}
